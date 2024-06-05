@@ -62,7 +62,7 @@ for i in range(test_data_set_numbers):
     plt.plot(predict_label_train)
     plt.plot(predict_label_test[matrix_name[i]])
 plt.show()
-# 4、评估
+# 4、评估 
 # 故障数据集中前160个是正常的，后800个是故障
 true_label = np.concatenate((np.zeros(160),np.ones(800)))
 accs = []
